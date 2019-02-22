@@ -4,7 +4,7 @@ const app = express();
 
 // Route Handler for Index
 app.get('/', (req, res) => { // Express listens for requests to '/'
-  res.send({ hi: 'there' }); // if the request matches the '/' route, {hi: 'there'} is returned
+  res.send({ hi: 'baller' }); // if the request matches the '/' route, {hi: 'there'} is returned
 });
 
 // Looks for env variables from Heroku, default to 5000
